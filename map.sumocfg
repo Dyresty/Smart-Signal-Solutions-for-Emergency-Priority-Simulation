@@ -1,0 +1,14 @@
+<configuration>
+    <input>
+        <net-file value="test.net.xml"/>
+        <route-files value="trips.rou.xml"/>
+        <additional-files value="detectors.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="1200"/>
+    </time>
+    <output>
+        <fcd-output value="fcd_output.xml"/>
+    </output>
+</configuration>
