@@ -1,0 +1,10 @@
+<additional>
+    <!-- Adjusted positions of detectors -->
+    <vType id="emergency" accel="2.0" decel="4.5" sigma="0.5" length="8.0" maxSpeed="30.0" color="1,0,0"/>
+
+    <inductionLoop id="sensor1" lane="-34727295_1" pos="70.00" freq="1" file="detector_output.xml"/>
+    <inductionLoop id="sensor2" lane="-34727295_0" pos="70.00" freq="1" file="detector_output.xml"/>
+    <inductionLoop id="sensor3" lane="33505468_0" pos="55.00" freq="1" file="detector_output.xml"/>
+    <inductionLoop id="sensor4" lane="33505476_0" pos="10.00" freq="1" file="detector_output.xml"/>
+    <inductionLoop id="sensor5" lane="33505476_1" pos="10.00" freq="1" file="detector_output.xml"/>
+</additional>
