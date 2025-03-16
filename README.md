@@ -1,6 +1,17 @@
 # Smart Signal Solutions for Emergency Priority Simulation
 Using Sumo Simulation <br>
 
+###### Details about the files in the repository
+Sumo configuration file: 'map.sumocfg'<br>
+Network File (net-file): 'test.net.xml'<br>
+Route Files (route-files): ‘trips.rou.xml’<br>
+Additional Files (additional-files): ‘detectors.add.xml’<br>
+Output file: fcd_output.xml<br>
+Python Scripts:<br>
+traffic_control.py: Manages detector units and signal phase changes.<br>
+calculate_average_speed.py: Calculates average speed and wait time for emergency vehicles.<br>
+randomTripsGen.py: Generates random trips with specified start and end points.<br>
+
 ### 1. Introduction<br>
 Traffic signal control systems are crucial in managing urban traffic, ensuring orderly vehicle flow at intersections. Under normal conditions, these systems help prevent congestion and maintain safety. However, when emergency vehicles, such as ambulances, fire trucks, or police cars, encounter these signals, delays can significantly hinder their response times, potentially risking lives. Integrating advanced sensors into traffic signal control systems offer a promising solution to address this issue. By prioritizing emergency vehicles at intersections, traffic signals can dynamically adjust to provide a clear path, thus reducing response times and enhancing emergency response effectiveness[1].<br>
 
